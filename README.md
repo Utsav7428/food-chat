@@ -1,79 +1,20 @@
-<p align="center">
-  <picture>
-    <img alt="Textbase python library" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
-  </picture>
-  <br/>
-  <br/>
-</p>
+#food-chat
+**Introduction**
 
-<p align="center">
-    <a href="https://docs.textbase.ai">
-        <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online">
-    </a>
-</p>
+The Food Recommendation Chatbot is an innovative digital companion designed to simplify the daunting task of choosing what to eat. Its primary goal is to enhance the dining experience by providing personalized food recommendations based on individual preferences. In a world inundated with culinary options, this chatbot serves as a reliable, quick, and interactive solution for those seeking delightful meal suggestions.
 
-<h3 align="center">
-    <p>✨ Textbase is a framework for building chatbots using NLP and ML. ✨</p>
-</h3>
+**Purpose and Goals:**
 
-<h3 align="center">
-    <a href="https://textbase.ai"><img src="assets/banner.png"></a>
-</h3>
+The core purpose of the Food Recommendation Chatbot is to alleviate the decision fatigue that often accompanies choosing a meal. With the abundance of cuisines, dietary restrictions, and culinary trends, individuals can find it overwhelming to make a choice. This chatbot aims to address this challenge by:
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+1. **Personalization**: The chatbot analyzes user preferences, such as cuisine type, dietary restrictions, and favorite flavors, to tailor recommendations to each user's unique taste.
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+2. **Simplicity**: It streamlines the dining decision process, making it effortless for users to discover new and appealing dishes or restaurants.
 
-Coming soon:
-- [x] [PyPI package](https://pypi.org/project/textbase-client/)
-- [x] Easy web deployment via [textbase deploy](/docs/deployment/deploy-from-cli)
-- [ ] SMS integration
-- [ ] Native integration of other models (Claude, Llama, ...)
+3. **Convenience**: The chatbot is accessible on various platforms, including web and mobile, ensuring users can access it at their convenience.
 
-![Demo Deploy GIF](assets/textbase-deploy.gif)
+4. **Empowering Choices**: By providing insightful recommendations, the chatbot empowers users to explore diverse culinary experiences and make informed choices.
 
-## Installation
-Make sure you have `python version >=3.9.0`, it's always good to follow the [docs](https://docs.textbase.ai/get-started/installation) 👈🏻
-### 1. Through pip
-```bash
-pip install textbase-client
-```
+5. **Continual Improvement**: The chatbot's ongoing goal is to enhance the quality of recommendations by learning from user interactions and feedback, ultimately becoming an even more valuable culinary companion.
 
-### 2. Local installation
-Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
-
-For proper details see [here]()
-
-```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
-poetry shell
-poetry install
-```
-
-## Start development server
-
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
-
-Run the following command:
-- if installed locally
-    ```bash
-    poetry run python textbase/textbase_cli.py test
-    ```
-- if installed through pip
-    ```bash
-    textbase-client test
-    ```
-Response:
-```bash
-Path to the main.py file: examples/openai-bot/main.py # You can create a main.py by yourself and add that path here. NOTE: The path should not be in quotes
-```
-Now go to the link in blue color which is shown on the CLI and you will be able to chat with your bot!
-![Local UI](assets/test_command.png)
-
-### `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
-
-
-## Contributions
-
-Contributions are welcome! Please open an issue or create a pull request.
+The Food Recommendation Chatbot is not just a tool for finding a meal; it's a digital gastronomic ally, aiming to make dining decisions enjoyable and stress-free. Whether you're a food enthusiast or simply seeking a quick lunch idea, this chatbot is here to guide you towards a satisfying culinary experience.
